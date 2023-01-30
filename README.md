@@ -1,1 +1,1 @@
-# A simple one page website, that is also responsive
+# A simple one page responsive website
