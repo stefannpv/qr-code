@@ -1,0 +1,60 @@
+html, body{
+    background-color: hsl(212, 45%, 89%);
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.bdy{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    background-color: #ffffff;
+    width: 20%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text{
+    text-align: center;
+    width: 80%;
+    padding-bottom: 2rem;
+}
+
+.qr-code{
+    width: 90%;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+
+h1{
+    font-family: "Outfit";
+    font-weight: 700;
+    font-size: 27px;
+    color: hsl(218, 44%, 22%);
+}
+
+h2{
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 20px;
+    color: hsl(220, 15%, 55%);
+}
+
+@media screen and (max-width:1024px) {
+    .hero{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .hero{
+        width: 90%;
+    }
+}
